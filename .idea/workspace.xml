@@ -26,13 +26,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="interface3.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="interface3.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface/interface3.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7088847">
+            <state vertical-scroll-proportion="0.0">
               <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interface4.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface/interface4.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <element signature="e#13#33#0" expanded="true" />
+                <element signature="e#13#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interface5.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interface/interface5.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.14177693">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding>
+                <element signature="e#13#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,6 +112,8 @@
         <option value="$PROJECT_DIR$/interface/interface1.go" />
         <option value="$PROJECT_DIR$/interface/interface2.go" />
         <option value="$PROJECT_DIR$/interface/interface3.go" />
+        <option value="$PROJECT_DIR$/interface/interface4.go" />
+        <option value="$PROJECT_DIR$/interface/interface5.go" />
       </list>
     </option>
   </component>
@@ -140,6 +164,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -174,7 +199,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,7 +222,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Single File.go run interface3.go">
+  <component name="RunManager" selected="Go Single File.go run interface4.go">
     <configuration default="false" name="go run map.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="GoProgramming" />
       <working_directory value="$PROJECT_DIR$" />
@@ -494,6 +518,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="go run interface4.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/interface/interface4.go" />
+      <method />
+    </configuration>
     <configuration default="false" name="go run interface1.go" type="GoRunFileConfiguration" factoryName="Go Single File">
       <module name="GoProgramming" />
       <working_directory value="$PROJECT_DIR$" />
@@ -560,22 +590,23 @@
       <file_path value="$PROJECT_DIR$/array/arraydemo1.go" />
       <method />
     </configuration>
-    <list size="15">
-      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run interface1.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run map2.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run struct1.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run struct2.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run struct3.go" />
-      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run append.go" />
-      <item index="6" class="java.lang.String" itemvalue="Go Single File.go run copy.go" />
-      <item index="7" class="java.lang.String" itemvalue="Go Single File.go run reslice.go" />
-      <item index="8" class="java.lang.String" itemvalue="Go Single File.go run slicedemo2.go" />
-      <item index="9" class="java.lang.String" itemvalue="Go Single File.go run slicedemo1.go" />
-      <item index="10" class="java.lang.String" itemvalue="Go Single File.go run arraydemo1.go" />
-      <item index="11" class="java.lang.String" itemvalue="Go Single File.go run map.go" />
-      <item index="12" class="java.lang.String" itemvalue="Go Single File.go run struct4.go" />
-      <item index="13" class="java.lang.String" itemvalue="Go Single File.go run interface2.go" />
-      <item index="14" class="java.lang.String" itemvalue="Go Single File.go run interface3.go" />
+    <list size="16">
+      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run interface4.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run interface1.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run map2.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run struct1.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run struct2.go" />
+      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run struct3.go" />
+      <item index="6" class="java.lang.String" itemvalue="Go Single File.go run append.go" />
+      <item index="7" class="java.lang.String" itemvalue="Go Single File.go run copy.go" />
+      <item index="8" class="java.lang.String" itemvalue="Go Single File.go run reslice.go" />
+      <item index="9" class="java.lang.String" itemvalue="Go Single File.go run slicedemo2.go" />
+      <item index="10" class="java.lang.String" itemvalue="Go Single File.go run slicedemo1.go" />
+      <item index="11" class="java.lang.String" itemvalue="Go Single File.go run arraydemo1.go" />
+      <item index="12" class="java.lang.String" itemvalue="Go Single File.go run map.go" />
+      <item index="13" class="java.lang.String" itemvalue="Go Single File.go run struct4.go" />
+      <item index="14" class="java.lang.String" itemvalue="Go Single File.go run interface2.go" />
+      <item index="15" class="java.lang.String" itemvalue="Go Single File.go run interface3.go" />
     </list>
     <recent_temporary>
       <list size="4">
@@ -599,16 +630,17 @@
       <workItem from="1432134120963" duration="1144000" />
       <workItem from="1432163731987" duration="1432000" />
       <workItem from="1432181875640" duration="3375000" />
-      <workItem from="1432191560287" duration="6232000" />
+      <workItem from="1432191560287" duration="6347000" />
+      <workItem from="1432210433894" duration="1083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12183000" />
+    <option name="totallyTimeSpent" value="13381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -626,13 +658,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -651,11 +683,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/interface/interface3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/interface2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/interface1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/slice/append.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -698,9 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65217394">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#34#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,9 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.56710774">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="e#13#34#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.91493386">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29925188">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4114713">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,9 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.91493386">
           <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="e#13#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4536862">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,9 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-          <folding>
-            <element signature="e#13#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4820416">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,9 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6238185">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,9 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6238185">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,10 +842,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interface/interface3.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7088847">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/interface4.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#13#33#0" expanded="true" />
+            <element signature="e#13#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/interface5.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14177693">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="e#13#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
