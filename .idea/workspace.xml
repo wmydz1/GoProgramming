@@ -26,26 +26,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="interface1.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface/interface1.go">
+      <file leaf-file-name="interface3.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interface/interface3.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.7088847">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <element signature="e#13#34#0" expanded="true" />
+                <element signature="e#13#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interface2.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="interface2.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface/interface2.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31190926">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="e#13#34#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interface1.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface/interface1.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,6 +89,7 @@
         <option value="$PROJECT_DIR$/struct/struct4.go" />
         <option value="$PROJECT_DIR$/interface/interface1.go" />
         <option value="$PROJECT_DIR$/interface/interface2.go" />
+        <option value="$PROJECT_DIR$/interface/interface3.go" />
       </list>
     </option>
   </component>
@@ -189,7 +198,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Single File.go run interface2.go">
+  <component name="RunManager" selected="Go Single File.go run interface3.go">
     <configuration default="false" name="go run map.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="GoProgramming" />
       <working_directory value="$PROJECT_DIR$" />
@@ -206,6 +215,12 @@
       <module name="GoProgramming" />
       <working_directory value="$PROJECT_DIR$" />
       <file_path value="$PROJECT_DIR$/interface/interface2.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run interface3.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/interface/interface3.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -545,7 +560,7 @@
       <file_path value="$PROJECT_DIR$/array/arraydemo1.go" />
       <method />
     </configuration>
-    <list size="14">
+    <list size="15">
       <item index="0" class="java.lang.String" itemvalue="Go Single File.go run interface1.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Single File.go run map2.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Single File.go run struct1.go" />
@@ -560,12 +575,14 @@
       <item index="11" class="java.lang.String" itemvalue="Go Single File.go run map.go" />
       <item index="12" class="java.lang.String" itemvalue="Go Single File.go run struct4.go" />
       <item index="13" class="java.lang.String" itemvalue="Go Single File.go run interface2.go" />
+      <item index="14" class="java.lang.String" itemvalue="Go Single File.go run interface3.go" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run interface2.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run struct4.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run map.go" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run interface3.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run interface2.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run struct4.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run map.go" />
       </list>
     </recent_temporary>
   </component>
@@ -582,12 +599,12 @@
       <workItem from="1432134120963" duration="1144000" />
       <workItem from="1432163731987" duration="1432000" />
       <workItem from="1432181875640" duration="3375000" />
-      <workItem from="1432191560287" duration="5759000" />
+      <workItem from="1432191560287" duration="6232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11710000" />
+    <option name="totallyTimeSpent" value="12183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -777,22 +794,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/interface/interface2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/interface/interface1.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="e#13#34#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface/interface2.go">
+    <entry file="file://$PROJECT_DIR$/interface/interface3.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31190926">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.7088847">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="e#13#34#0" expanded="true" />
+            <element signature="e#13#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
