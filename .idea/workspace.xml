@@ -26,23 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="map.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map/map.go">
+      <file leaf-file-name="struct3.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/struct/struct3.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#13#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map2.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/map/map2.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.91493386">
-              <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.6238185">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="e#13#34#0" expanded="true" />
               </folding>
@@ -75,6 +63,9 @@
         <option value="$PROJECT_DIR$/slice/copy.go" />
         <option value="$PROJECT_DIR$/map/map.go" />
         <option value="$PROJECT_DIR$/map/map2.go" />
+        <option value="$PROJECT_DIR$/struct/struct1.go" />
+        <option value="$PROJECT_DIR$/struct/struct2.go" />
+        <option value="$PROJECT_DIR$/struct/struct3.go" />
       </list>
     </option>
   </component>
@@ -153,6 +144,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="struct" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoProgramming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoProgramming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="map" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -183,7 +188,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Single File.go run map2.go">
+  <component name="RunManager" selected="Go Single File.go run struct3.go">
     <configuration default="false" name="go run map.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="GoProgramming" />
       <working_directory value="$PROJECT_DIR$" />
@@ -467,6 +472,24 @@
       <file_path value="$PROJECT_DIR$/map/map2.go" />
       <method />
     </configuration>
+    <configuration default="false" name="go run struct1.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/struct/struct1.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run struct2.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/struct/struct2.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run struct3.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/struct/struct3.go" />
+      <method />
+    </configuration>
     <configuration default="false" name="go run append.go" type="GoRunFileConfiguration" factoryName="Go Single File">
       <module name="GoProgramming" />
       <working_directory value="$PROJECT_DIR$" />
@@ -503,15 +526,18 @@
       <file_path value="$PROJECT_DIR$/array/arraydemo1.go" />
       <method />
     </configuration>
-    <list size="8">
+    <list size="11">
       <item index="0" class="java.lang.String" itemvalue="Go Single File.go run map2.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run append.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run copy.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run reslice.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run slicedemo2.go" />
-      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run slicedemo1.go" />
-      <item index="6" class="java.lang.String" itemvalue="Go Single File.go run arraydemo1.go" />
-      <item index="7" class="java.lang.String" itemvalue="Go Single File.go run map.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run struct1.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run struct2.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run struct3.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run append.go" />
+      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run copy.go" />
+      <item index="6" class="java.lang.String" itemvalue="Go Single File.go run reslice.go" />
+      <item index="7" class="java.lang.String" itemvalue="Go Single File.go run slicedemo2.go" />
+      <item index="8" class="java.lang.String" itemvalue="Go Single File.go run slicedemo1.go" />
+      <item index="9" class="java.lang.String" itemvalue="Go Single File.go run arraydemo1.go" />
+      <item index="10" class="java.lang.String" itemvalue="Go Single File.go run map.go" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -532,12 +558,12 @@
       <workItem from="1432134120963" duration="1144000" />
       <workItem from="1432163731987" duration="1432000" />
       <workItem from="1432181875640" duration="3375000" />
-      <workItem from="1432191560287" duration="1852000" />
+      <workItem from="1432191560287" duration="4343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7803000" />
+    <option name="totallyTimeSpent" value="10294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -671,20 +697,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map/map.go">
+    <entry file="file://$PROJECT_DIR$/map/map2.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.91493386">
+          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="e#13#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map/map2.go">
+    <entry file="file://$PROJECT_DIR$/map/map.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91493386">
-          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.4536862">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/struct1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="e#13#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/struct2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4820416">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/struct3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6238185">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="e#13#34#0" expanded="true" />
           </folding>
