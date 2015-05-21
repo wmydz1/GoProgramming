@@ -29,4 +29,23 @@ func main() {
     fmt.Println(data[:])
 
     //读写操作实际⺫⽬目标是底层数组,只需注意索引号的差别
+    s:=data[2:4]
+    fmt.Println(s)
+    s[0]+=100
+    s[1]+=100
+    fmt.Println(data)
+    //可直接创建 slice 对象,自动分配底层数组
+
+    // 通过初始化表达式构造,可使用索引号。
+    s1:=[]int{0,1,2,3,8:100}
+    fmt.Println(s1,len(s1),cap(s1))
+
+    /// 使⽤ make 创建,指定 len 和 cap 值。
+    s2:=make([]int,6,8)
+    fmt.Println(s2,len(s2),cap(s2))
+    // 省略 cap,相当于 cap = len。
+    s3:=make([]int,6)
+    fmt.Println(s3,len(s3),cap(s3))
+
+
 }
