@@ -26,8 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="struct3.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="struct3.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struct/struct3.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#13#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struct4.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/struct/struct4.go">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6238185">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
@@ -66,6 +78,7 @@
         <option value="$PROJECT_DIR$/struct/struct1.go" />
         <option value="$PROJECT_DIR$/struct/struct2.go" />
         <option value="$PROJECT_DIR$/struct/struct3.go" />
+        <option value="$PROJECT_DIR$/struct/struct4.go" />
       </list>
     </option>
   </component>
@@ -188,11 +201,17 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Single File.go run struct3.go">
+  <component name="RunManager" selected="Go Single File.go run struct4.go">
     <configuration default="false" name="go run map.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="GoProgramming" />
       <working_directory value="$PROJECT_DIR$" />
       <file_path value="$PROJECT_DIR$/map/map.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run struct4.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/struct/struct4.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -526,7 +545,7 @@
       <file_path value="$PROJECT_DIR$/array/arraydemo1.go" />
       <method />
     </configuration>
-    <list size="11">
+    <list size="12">
       <item index="0" class="java.lang.String" itemvalue="Go Single File.go run map2.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Single File.go run struct1.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Single File.go run struct2.go" />
@@ -538,10 +557,12 @@
       <item index="8" class="java.lang.String" itemvalue="Go Single File.go run slicedemo1.go" />
       <item index="9" class="java.lang.String" itemvalue="Go Single File.go run arraydemo1.go" />
       <item index="10" class="java.lang.String" itemvalue="Go Single File.go run map.go" />
+      <item index="11" class="java.lang.String" itemvalue="Go Single File.go run struct4.go" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run map.go" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run struct4.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run map.go" />
       </list>
     </recent_temporary>
   </component>
@@ -558,12 +579,12 @@
       <workItem from="1432134120963" duration="1144000" />
       <workItem from="1432163731987" duration="1432000" />
       <workItem from="1432181875640" duration="3375000" />
-      <workItem from="1432191560287" duration="4343000" />
+      <workItem from="1432191560287" duration="4694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10294000" />
+    <option name="totallyTimeSpent" value="10645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -734,6 +755,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struct/struct3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/struct4.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6238185">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
