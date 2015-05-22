@@ -10,6 +10,8 @@ func main(){
     fmt.Println(Substr(now,7,5))
     fmt.Println(time.Now().Format("15:04:05"))
     fmt.Println(time.Now().String()[11:16])
+    fmt.Println("----")
+    fmt.Println(now[7:12])
 
 }
 func Substr(str string, start, length int) string {

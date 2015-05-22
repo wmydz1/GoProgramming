@@ -26,32 +26,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Substring.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/some/Substring.go">
+      <file leaf-file-name="string.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/base/string.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="time.go" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/time/time.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="780" column="5" selection-start-line="780" selection-start-column="5" selection-end-line="780" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="format.go" pinned="false" current-in-tab="true">
-        <entry file="file:///usr/local/go/src/time/format.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7223427">
-              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-              <folding />
+            <state vertical-scroll-proportion="0.9433962">
+              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+              <folding>
+                <element signature="e#13#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,7 +90,10 @@
         <option value="$PROJECT_DIR$/variable/variable2.go" />
         <option value="$PROJECT_DIR$/constnat/constnat1.go" />
         <option value="$PROJECT_DIR$/constnat/iota.go" />
+        <option value="$PROJECT_DIR$/base/type.go" />
         <option value="$PROJECT_DIR$/some/Substring.go" />
+        <option value="$PROJECT_DIR$/base/demo1.go" />
+        <option value="$PROJECT_DIR$/base/string.go" />
       </list>
     </option>
   </component>
@@ -131,9 +116,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="820" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -158,8 +142,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,13 +184,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="constnat" />
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +208,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.libraries.notification.had.been.shown" value="true" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
@@ -232,7 +216,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Single File.go run Substring.go">
+  <component name="RunManager" selected="Go Single File.go run string.go">
     <configuration default="false" name="go run channel2.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="GoProgramming" />
       <working_directory value="$PROJECT_DIR$" />
@@ -528,6 +512,24 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="go run demo1.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/base/demo1.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run string.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/base/string.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run type.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/base/type.go" />
+      <method />
+    </configuration>
     <configuration default="false" name="go run channel4.go" type="GoRunFileConfiguration" factoryName="Go Single File">
       <module name="GoProgramming" />
       <working_directory value="$PROJECT_DIR$" />
@@ -702,40 +704,43 @@
       <file_path value="$PROJECT_DIR$/some/Substring.go" />
       <method />
     </configuration>
-    <list size="33">
-      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run channel4.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run closechannel.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run constnat1.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run iota.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run selecttimeout.go" />
-      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run variable1.go" />
-      <item index="6" class="java.lang.String" itemvalue="Go Single File.go run variable2.go" />
-      <item index="7" class="java.lang.String" itemvalue="Go Single File.go run channelmode.go" />
-      <item index="8" class="java.lang.String" itemvalue="Go Single File.go run select.go" />
-      <item index="9" class="java.lang.String" itemvalue="Go Single File.go run semaphore.go" />
-      <item index="10" class="java.lang.String" itemvalue="Go Single File.go run singlechannel.go" />
-      <item index="11" class="java.lang.String" itemvalue="Go Single File.go run channel1.go" />
-      <item index="12" class="java.lang.String" itemvalue="Go Single File.go run channel3.go" />
-      <item index="13" class="java.lang.String" itemvalue="Go Single File.go run goroutine1.go" />
-      <item index="14" class="java.lang.String" itemvalue="Go Single File.go run goroutine2.go" />
-      <item index="15" class="java.lang.String" itemvalue="Go Single File.go run interface5.go" />
-      <item index="16" class="java.lang.String" itemvalue="Go Single File.go run interface4.go" />
-      <item index="17" class="java.lang.String" itemvalue="Go Single File.go run interface1.go" />
-      <item index="18" class="java.lang.String" itemvalue="Go Single File.go run map2.go" />
-      <item index="19" class="java.lang.String" itemvalue="Go Single File.go run struct1.go" />
-      <item index="20" class="java.lang.String" itemvalue="Go Single File.go run struct2.go" />
-      <item index="21" class="java.lang.String" itemvalue="Go Single File.go run struct3.go" />
-      <item index="22" class="java.lang.String" itemvalue="Go Single File.go run append.go" />
-      <item index="23" class="java.lang.String" itemvalue="Go Single File.go run copy.go" />
-      <item index="24" class="java.lang.String" itemvalue="Go Single File.go run reslice.go" />
-      <item index="25" class="java.lang.String" itemvalue="Go Single File.go run slicedemo2.go" />
-      <item index="26" class="java.lang.String" itemvalue="Go Single File.go run slicedemo1.go" />
-      <item index="27" class="java.lang.String" itemvalue="Go Single File.go run arraydemo1.go" />
-      <item index="28" class="java.lang.String" itemvalue="Go Single File.go run Substring.go" />
-      <item index="29" class="java.lang.String" itemvalue="Go Single File.go run channel2.go" />
-      <item index="30" class="java.lang.String" itemvalue="Go Single File.go run goroutine3.go" />
-      <item index="31" class="java.lang.String" itemvalue="Go Single File.go run interface3.go" />
-      <item index="32" class="java.lang.String" itemvalue="Go Single File.go run interface6.go" />
+    <list size="36">
+      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run demo1.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run string.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run type.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run channel4.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run closechannel.go" />
+      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run constnat1.go" />
+      <item index="6" class="java.lang.String" itemvalue="Go Single File.go run iota.go" />
+      <item index="7" class="java.lang.String" itemvalue="Go Single File.go run selecttimeout.go" />
+      <item index="8" class="java.lang.String" itemvalue="Go Single File.go run variable1.go" />
+      <item index="9" class="java.lang.String" itemvalue="Go Single File.go run variable2.go" />
+      <item index="10" class="java.lang.String" itemvalue="Go Single File.go run channelmode.go" />
+      <item index="11" class="java.lang.String" itemvalue="Go Single File.go run select.go" />
+      <item index="12" class="java.lang.String" itemvalue="Go Single File.go run semaphore.go" />
+      <item index="13" class="java.lang.String" itemvalue="Go Single File.go run singlechannel.go" />
+      <item index="14" class="java.lang.String" itemvalue="Go Single File.go run channel1.go" />
+      <item index="15" class="java.lang.String" itemvalue="Go Single File.go run channel3.go" />
+      <item index="16" class="java.lang.String" itemvalue="Go Single File.go run goroutine1.go" />
+      <item index="17" class="java.lang.String" itemvalue="Go Single File.go run goroutine2.go" />
+      <item index="18" class="java.lang.String" itemvalue="Go Single File.go run interface5.go" />
+      <item index="19" class="java.lang.String" itemvalue="Go Single File.go run interface4.go" />
+      <item index="20" class="java.lang.String" itemvalue="Go Single File.go run interface1.go" />
+      <item index="21" class="java.lang.String" itemvalue="Go Single File.go run map2.go" />
+      <item index="22" class="java.lang.String" itemvalue="Go Single File.go run struct1.go" />
+      <item index="23" class="java.lang.String" itemvalue="Go Single File.go run struct2.go" />
+      <item index="24" class="java.lang.String" itemvalue="Go Single File.go run struct3.go" />
+      <item index="25" class="java.lang.String" itemvalue="Go Single File.go run append.go" />
+      <item index="26" class="java.lang.String" itemvalue="Go Single File.go run copy.go" />
+      <item index="27" class="java.lang.String" itemvalue="Go Single File.go run reslice.go" />
+      <item index="28" class="java.lang.String" itemvalue="Go Single File.go run slicedemo2.go" />
+      <item index="29" class="java.lang.String" itemvalue="Go Single File.go run slicedemo1.go" />
+      <item index="30" class="java.lang.String" itemvalue="Go Single File.go run arraydemo1.go" />
+      <item index="31" class="java.lang.String" itemvalue="Go Single File.go run Substring.go" />
+      <item index="32" class="java.lang.String" itemvalue="Go Single File.go run channel2.go" />
+      <item index="33" class="java.lang.String" itemvalue="Go Single File.go run goroutine3.go" />
+      <item index="34" class="java.lang.String" itemvalue="Go Single File.go run interface3.go" />
+      <item index="35" class="java.lang.String" itemvalue="Go Single File.go run interface6.go" />
     </list>
     <recent_temporary>
       <list size="4">
@@ -766,14 +771,15 @@
       <workItem from="1432271756302" duration="2639000" />
       <workItem from="1432281522248" duration="9137000" />
       <workItem from="1432301030121" duration="708000" />
+      <workItem from="1432304219847" duration="3883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30619000" />
+    <option name="totallyTimeSpent" value="34502000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="820" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -792,13 +798,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282967" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -817,34 +823,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interface/interface3.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/interface4.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/interface5.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/interface2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interface/interface1.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1151,6 +1129,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/go/src/time/format.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/local/go/src/time/time.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1159,19 +1145,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/base/type.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6886792">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="e#13#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/some/Substring.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.6226415">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/time/format.go">
+    <entry file="file:///usr/local/go/src/unicode/utf8/utf8.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7223427">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="383" column="5" selection-start-line="383" selection-start-column="5" selection-end-line="383" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/demo1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28301886">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/string.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9433962">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+          <folding>
+            <element signature="e#13#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
