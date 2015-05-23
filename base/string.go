@@ -46,4 +46,27 @@ func main() {
 
     //要修改字符串，可以先将其转换成[]rune 或者[]byte,完成后再转化为 string 。无论那种转换
     //都会重新分配内存，并且复制字节数组
+
+    change:="Hello GO"
+    change_byte:=[]byte(change)
+    change_byte[6]='C'
+    change_byte[7]='#'
+    fmt.Println(string(change_byte))
+
+    tool:="电脑"
+    tool_byte:=[]rune(tool)
+    tool_byte[1]='话'
+    fmt.Println(string(tool_byte))
+
+    // for 循环遍历字符串时，也有 rune 和 byte 两种方式
+
+    loop :="Android Google "
+    for i:=0;i<len(loop) ;i++  {  //byte
+        fmt.Printf("%c",loop[i])
+    }
+    fmt.Println()
+
+    for _,r:=range loop{ //rune
+         fmt.Printf("%c",r)
+    }
 }
