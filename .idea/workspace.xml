@@ -26,25 +26,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="error2.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/error/error2.go">
+      <file leaf-file-name="error3.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/error/error3.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7358491">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
-                <element signature="e#13#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error1.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/error/error1.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5471698">
-              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-              <folding>
-                <element signature="e#13#34#0" expanded="true" />
+                <element signature="e#13#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,6 +98,7 @@
         <option value="$PROJECT_DIR$/base/point2.go" />
         <option value="$PROJECT_DIR$/error/error2.go" />
         <option value="$PROJECT_DIR$/error/error1.go" />
+        <option value="$PROJECT_DIR$/error/error3.go" />
       </list>
     </option>
   </component>
@@ -218,7 +207,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Single File.go run error1.go">
+  <component name="RunManager" selected="Go Single File.go run error3.go">
     <configuration default="false" name="go run point2.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="GoProgramming" />
       <working_directory value="$PROJECT_DIR$" />
@@ -520,6 +509,12 @@
       <file_path value="$PROJECT_DIR$/error/error1.go" />
       <method />
     </configuration>
+    <configuration default="false" name="go run error3.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/error/error3.go" />
+      <method />
+    </configuration>
     <configuration default="false" name="go run point.go" type="GoRunFileConfiguration" factoryName="Go Single File">
       <module name="GoProgramming" />
       <working_directory value="$PROJECT_DIR$" />
@@ -718,45 +713,46 @@
       <file_path value="$PROJECT_DIR$/some/Substring.go" />
       <method />
     </configuration>
-    <list size="38">
+    <list size="39">
       <item index="0" class="java.lang.String" itemvalue="Go Single File.go run error1.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run point.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run demo1.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run string.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run type.go" />
-      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run channel4.go" />
-      <item index="6" class="java.lang.String" itemvalue="Go Single File.go run closechannel.go" />
-      <item index="7" class="java.lang.String" itemvalue="Go Single File.go run constnat1.go" />
-      <item index="8" class="java.lang.String" itemvalue="Go Single File.go run iota.go" />
-      <item index="9" class="java.lang.String" itemvalue="Go Single File.go run selecttimeout.go" />
-      <item index="10" class="java.lang.String" itemvalue="Go Single File.go run variable1.go" />
-      <item index="11" class="java.lang.String" itemvalue="Go Single File.go run variable2.go" />
-      <item index="12" class="java.lang.String" itemvalue="Go Single File.go run channelmode.go" />
-      <item index="13" class="java.lang.String" itemvalue="Go Single File.go run select.go" />
-      <item index="14" class="java.lang.String" itemvalue="Go Single File.go run semaphore.go" />
-      <item index="15" class="java.lang.String" itemvalue="Go Single File.go run singlechannel.go" />
-      <item index="16" class="java.lang.String" itemvalue="Go Single File.go run channel1.go" />
-      <item index="17" class="java.lang.String" itemvalue="Go Single File.go run channel3.go" />
-      <item index="18" class="java.lang.String" itemvalue="Go Single File.go run goroutine1.go" />
-      <item index="19" class="java.lang.String" itemvalue="Go Single File.go run goroutine2.go" />
-      <item index="20" class="java.lang.String" itemvalue="Go Single File.go run interface5.go" />
-      <item index="21" class="java.lang.String" itemvalue="Go Single File.go run interface4.go" />
-      <item index="22" class="java.lang.String" itemvalue="Go Single File.go run interface1.go" />
-      <item index="23" class="java.lang.String" itemvalue="Go Single File.go run map2.go" />
-      <item index="24" class="java.lang.String" itemvalue="Go Single File.go run struct1.go" />
-      <item index="25" class="java.lang.String" itemvalue="Go Single File.go run struct2.go" />
-      <item index="26" class="java.lang.String" itemvalue="Go Single File.go run struct3.go" />
-      <item index="27" class="java.lang.String" itemvalue="Go Single File.go run append.go" />
-      <item index="28" class="java.lang.String" itemvalue="Go Single File.go run copy.go" />
-      <item index="29" class="java.lang.String" itemvalue="Go Single File.go run reslice.go" />
-      <item index="30" class="java.lang.String" itemvalue="Go Single File.go run slicedemo2.go" />
-      <item index="31" class="java.lang.String" itemvalue="Go Single File.go run slicedemo1.go" />
-      <item index="32" class="java.lang.String" itemvalue="Go Single File.go run arraydemo1.go" />
-      <item index="33" class="java.lang.String" itemvalue="Go Single File.go run Substring.go" />
-      <item index="34" class="java.lang.String" itemvalue="Go Single File.go run point2.go" />
-      <item index="35" class="java.lang.String" itemvalue="Go Single File.go run channel2.go" />
-      <item index="36" class="java.lang.String" itemvalue="Go Single File.go run goroutine3.go" />
-      <item index="37" class="java.lang.String" itemvalue="Go Single File.go run interface6.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run error3.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run point.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run demo1.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run string.go" />
+      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run type.go" />
+      <item index="6" class="java.lang.String" itemvalue="Go Single File.go run channel4.go" />
+      <item index="7" class="java.lang.String" itemvalue="Go Single File.go run closechannel.go" />
+      <item index="8" class="java.lang.String" itemvalue="Go Single File.go run constnat1.go" />
+      <item index="9" class="java.lang.String" itemvalue="Go Single File.go run iota.go" />
+      <item index="10" class="java.lang.String" itemvalue="Go Single File.go run selecttimeout.go" />
+      <item index="11" class="java.lang.String" itemvalue="Go Single File.go run variable1.go" />
+      <item index="12" class="java.lang.String" itemvalue="Go Single File.go run variable2.go" />
+      <item index="13" class="java.lang.String" itemvalue="Go Single File.go run channelmode.go" />
+      <item index="14" class="java.lang.String" itemvalue="Go Single File.go run select.go" />
+      <item index="15" class="java.lang.String" itemvalue="Go Single File.go run semaphore.go" />
+      <item index="16" class="java.lang.String" itemvalue="Go Single File.go run singlechannel.go" />
+      <item index="17" class="java.lang.String" itemvalue="Go Single File.go run channel1.go" />
+      <item index="18" class="java.lang.String" itemvalue="Go Single File.go run channel3.go" />
+      <item index="19" class="java.lang.String" itemvalue="Go Single File.go run goroutine1.go" />
+      <item index="20" class="java.lang.String" itemvalue="Go Single File.go run goroutine2.go" />
+      <item index="21" class="java.lang.String" itemvalue="Go Single File.go run interface5.go" />
+      <item index="22" class="java.lang.String" itemvalue="Go Single File.go run interface4.go" />
+      <item index="23" class="java.lang.String" itemvalue="Go Single File.go run interface1.go" />
+      <item index="24" class="java.lang.String" itemvalue="Go Single File.go run map2.go" />
+      <item index="25" class="java.lang.String" itemvalue="Go Single File.go run struct1.go" />
+      <item index="26" class="java.lang.String" itemvalue="Go Single File.go run struct2.go" />
+      <item index="27" class="java.lang.String" itemvalue="Go Single File.go run struct3.go" />
+      <item index="28" class="java.lang.String" itemvalue="Go Single File.go run append.go" />
+      <item index="29" class="java.lang.String" itemvalue="Go Single File.go run copy.go" />
+      <item index="30" class="java.lang.String" itemvalue="Go Single File.go run reslice.go" />
+      <item index="31" class="java.lang.String" itemvalue="Go Single File.go run slicedemo2.go" />
+      <item index="32" class="java.lang.String" itemvalue="Go Single File.go run slicedemo1.go" />
+      <item index="33" class="java.lang.String" itemvalue="Go Single File.go run arraydemo1.go" />
+      <item index="34" class="java.lang.String" itemvalue="Go Single File.go run Substring.go" />
+      <item index="35" class="java.lang.String" itemvalue="Go Single File.go run point2.go" />
+      <item index="36" class="java.lang.String" itemvalue="Go Single File.go run channel2.go" />
+      <item index="37" class="java.lang.String" itemvalue="Go Single File.go run goroutine3.go" />
+      <item index="38" class="java.lang.String" itemvalue="Go Single File.go run interface6.go" />
     </list>
     <recent_temporary>
       <list size="4">
@@ -788,12 +784,12 @@
       <workItem from="1432281522248" duration="9137000" />
       <workItem from="1432301030121" duration="708000" />
       <workItem from="1432304219847" duration="4064000" />
-      <workItem from="1432338873168" duration="4913000" />
+      <workItem from="1432338873168" duration="5674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39596000" />
+    <option name="totallyTimeSpent" value="40357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -815,7 +811,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -840,13 +836,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/slice/append.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slice/copy.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1203,10 +1192,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/error/error1.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5471698">
+        <state vertical-scroll-proportion="0.0">
           <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
           <folding>
             <element signature="e#13#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error/error3.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7358491">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
