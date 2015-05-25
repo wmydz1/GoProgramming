@@ -26,26 +26,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="jsonclient.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netprogram/jsonclient.go">
+      <file leaf-file-name="ftpserver.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netprogram/ftpserver.go">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-              <folding>
-                <element signature="e#13#83#0" expanded="true" />
-              </folding>
+              <caret line="41" column="24" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jsonserver.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/netprogram/jsonserver.go">
+      <file leaf-file-name="ftpclient.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/netprogram/ftpclient.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8301887">
-              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
-              <folding>
-                <element signature="e#13#74#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-0.16832918">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/goroutine/channel2.go" />
-        <option value="$PROJECT_DIR$/goroutine/channel1.go" />
         <option value="$PROJECT_DIR$/goroutine/channel3.go" />
         <option value="$PROJECT_DIR$/goroutine/singlechannel.go" />
         <option value="$PROJECT_DIR$/goroutine/select.go" />
@@ -118,6 +112,8 @@
         <option value="$PROJECT_DIR$/netprogram/clientDay.go" />
         <option value="$PROJECT_DIR$/netprogram/jsonclient.go" />
         <option value="$PROJECT_DIR$/netprogram/jsonserver.go" />
+        <option value="$PROJECT_DIR$/netprogram/ftpserver.go" />
+        <option value="$PROJECT_DIR$/netprogram/ftpclient.go" />
       </list>
     </option>
   </component>
@@ -166,6 +162,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,11 +196,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoProgramming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoProgramming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,7 +240,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Single File.go run jsonclient.go">
+  <component name="RunManager" selected="Go Single File.go run ftpclient.go">
     <configuration default="false" name="go run jsonserver.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="GoProgramming" />
       <working_directory value="$PROJECT_DIR$" />
@@ -524,6 +534,18 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run ftpclient.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/netprogram/ftpclient.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run ftpserver.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/netprogram/ftpserver.go" />
       <method />
     </configuration>
     <configuration default="false" name="go run DaytimeServer.go" type="GoRunFileConfiguration" factoryName="Go Single File">
@@ -832,62 +854,64 @@
       <file_path value="$PROJECT_DIR$/some/Substring.go" />
       <method />
     </configuration>
-    <list size="55">
-      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run DaytimeServer.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run clientDay.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run jsonclient.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run function6.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run function8.go" />
-      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run function1.go" />
-      <item index="6" class="java.lang.String" itemvalue="Go Single File.go run function3.go" />
-      <item index="7" class="java.lang.String" itemvalue="Go Single File.go run function4.go" />
-      <item index="8" class="java.lang.String" itemvalue="Go Single File.go run function5.go" />
-      <item index="9" class="java.lang.String" itemvalue="Go Single File.go run goto.go" />
-      <item index="10" class="java.lang.String" itemvalue="Go Single File.go run switch.go" />
-      <item index="11" class="java.lang.String" itemvalue="Go Single File.go run test.go" />
-      <item index="12" class="java.lang.String" itemvalue="Go Single File.go run range.go" />
-      <item index="13" class="java.lang.String" itemvalue="Go Single File.go run demo1.go (1)" />
-      <item index="14" class="java.lang.String" itemvalue="Go Single File.go run error1.go" />
-      <item index="15" class="java.lang.String" itemvalue="Go Single File.go run error3.go" />
-      <item index="16" class="java.lang.String" itemvalue="Go Single File.go run for.go" />
-      <item index="17" class="java.lang.String" itemvalue="Go Single File.go run if.go" />
-      <item index="18" class="java.lang.String" itemvalue="Go Single File.go run point.go" />
-      <item index="19" class="java.lang.String" itemvalue="Go Single File.go run demo1.go" />
-      <item index="20" class="java.lang.String" itemvalue="Go Single File.go run string.go" />
-      <item index="21" class="java.lang.String" itemvalue="Go Single File.go run type.go" />
-      <item index="22" class="java.lang.String" itemvalue="Go Single File.go run channel4.go" />
-      <item index="23" class="java.lang.String" itemvalue="Go Single File.go run closechannel.go" />
-      <item index="24" class="java.lang.String" itemvalue="Go Single File.go run constnat1.go" />
-      <item index="25" class="java.lang.String" itemvalue="Go Single File.go run iota.go" />
-      <item index="26" class="java.lang.String" itemvalue="Go Single File.go run selecttimeout.go" />
-      <item index="27" class="java.lang.String" itemvalue="Go Single File.go run variable1.go" />
-      <item index="28" class="java.lang.String" itemvalue="Go Single File.go run variable2.go" />
-      <item index="29" class="java.lang.String" itemvalue="Go Single File.go run channelmode.go" />
-      <item index="30" class="java.lang.String" itemvalue="Go Single File.go run select.go" />
-      <item index="31" class="java.lang.String" itemvalue="Go Single File.go run semaphore.go" />
-      <item index="32" class="java.lang.String" itemvalue="Go Single File.go run singlechannel.go" />
-      <item index="33" class="java.lang.String" itemvalue="Go Single File.go run channel1.go" />
-      <item index="34" class="java.lang.String" itemvalue="Go Single File.go run channel3.go" />
-      <item index="35" class="java.lang.String" itemvalue="Go Single File.go run goroutine1.go" />
-      <item index="36" class="java.lang.String" itemvalue="Go Single File.go run goroutine2.go" />
-      <item index="37" class="java.lang.String" itemvalue="Go Single File.go run interface5.go" />
-      <item index="38" class="java.lang.String" itemvalue="Go Single File.go run interface4.go" />
-      <item index="39" class="java.lang.String" itemvalue="Go Single File.go run interface1.go" />
-      <item index="40" class="java.lang.String" itemvalue="Go Single File.go run map2.go" />
-      <item index="41" class="java.lang.String" itemvalue="Go Single File.go run struct1.go" />
-      <item index="42" class="java.lang.String" itemvalue="Go Single File.go run struct2.go" />
-      <item index="43" class="java.lang.String" itemvalue="Go Single File.go run struct3.go" />
-      <item index="44" class="java.lang.String" itemvalue="Go Single File.go run append.go" />
-      <item index="45" class="java.lang.String" itemvalue="Go Single File.go run copy.go" />
-      <item index="46" class="java.lang.String" itemvalue="Go Single File.go run reslice.go" />
-      <item index="47" class="java.lang.String" itemvalue="Go Single File.go run slicedemo2.go" />
-      <item index="48" class="java.lang.String" itemvalue="Go Single File.go run slicedemo1.go" />
-      <item index="49" class="java.lang.String" itemvalue="Go Single File.go run arraydemo1.go" />
-      <item index="50" class="java.lang.String" itemvalue="Go Single File.go run Substring.go" />
-      <item index="51" class="java.lang.String" itemvalue="Go Single File.go run jsonserver.go" />
-      <item index="52" class="java.lang.String" itemvalue="Go Single File.go run function9.go" />
-      <item index="53" class="java.lang.String" itemvalue="Go Single File.go run demo2.go" />
-      <item index="54" class="java.lang.String" itemvalue="Go Single File.go run pptoftest.go" />
+    <list size="57">
+      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run ftpclient.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run ftpserver.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run DaytimeServer.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run clientDay.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run jsonclient.go" />
+      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run function6.go" />
+      <item index="6" class="java.lang.String" itemvalue="Go Single File.go run function8.go" />
+      <item index="7" class="java.lang.String" itemvalue="Go Single File.go run function1.go" />
+      <item index="8" class="java.lang.String" itemvalue="Go Single File.go run function3.go" />
+      <item index="9" class="java.lang.String" itemvalue="Go Single File.go run function4.go" />
+      <item index="10" class="java.lang.String" itemvalue="Go Single File.go run function5.go" />
+      <item index="11" class="java.lang.String" itemvalue="Go Single File.go run goto.go" />
+      <item index="12" class="java.lang.String" itemvalue="Go Single File.go run switch.go" />
+      <item index="13" class="java.lang.String" itemvalue="Go Single File.go run test.go" />
+      <item index="14" class="java.lang.String" itemvalue="Go Single File.go run range.go" />
+      <item index="15" class="java.lang.String" itemvalue="Go Single File.go run demo1.go (1)" />
+      <item index="16" class="java.lang.String" itemvalue="Go Single File.go run error1.go" />
+      <item index="17" class="java.lang.String" itemvalue="Go Single File.go run error3.go" />
+      <item index="18" class="java.lang.String" itemvalue="Go Single File.go run for.go" />
+      <item index="19" class="java.lang.String" itemvalue="Go Single File.go run if.go" />
+      <item index="20" class="java.lang.String" itemvalue="Go Single File.go run point.go" />
+      <item index="21" class="java.lang.String" itemvalue="Go Single File.go run demo1.go" />
+      <item index="22" class="java.lang.String" itemvalue="Go Single File.go run string.go" />
+      <item index="23" class="java.lang.String" itemvalue="Go Single File.go run type.go" />
+      <item index="24" class="java.lang.String" itemvalue="Go Single File.go run channel4.go" />
+      <item index="25" class="java.lang.String" itemvalue="Go Single File.go run closechannel.go" />
+      <item index="26" class="java.lang.String" itemvalue="Go Single File.go run constnat1.go" />
+      <item index="27" class="java.lang.String" itemvalue="Go Single File.go run iota.go" />
+      <item index="28" class="java.lang.String" itemvalue="Go Single File.go run selecttimeout.go" />
+      <item index="29" class="java.lang.String" itemvalue="Go Single File.go run variable1.go" />
+      <item index="30" class="java.lang.String" itemvalue="Go Single File.go run variable2.go" />
+      <item index="31" class="java.lang.String" itemvalue="Go Single File.go run channelmode.go" />
+      <item index="32" class="java.lang.String" itemvalue="Go Single File.go run select.go" />
+      <item index="33" class="java.lang.String" itemvalue="Go Single File.go run semaphore.go" />
+      <item index="34" class="java.lang.String" itemvalue="Go Single File.go run singlechannel.go" />
+      <item index="35" class="java.lang.String" itemvalue="Go Single File.go run channel1.go" />
+      <item index="36" class="java.lang.String" itemvalue="Go Single File.go run channel3.go" />
+      <item index="37" class="java.lang.String" itemvalue="Go Single File.go run goroutine1.go" />
+      <item index="38" class="java.lang.String" itemvalue="Go Single File.go run goroutine2.go" />
+      <item index="39" class="java.lang.String" itemvalue="Go Single File.go run interface5.go" />
+      <item index="40" class="java.lang.String" itemvalue="Go Single File.go run interface4.go" />
+      <item index="41" class="java.lang.String" itemvalue="Go Single File.go run interface1.go" />
+      <item index="42" class="java.lang.String" itemvalue="Go Single File.go run map2.go" />
+      <item index="43" class="java.lang.String" itemvalue="Go Single File.go run struct1.go" />
+      <item index="44" class="java.lang.String" itemvalue="Go Single File.go run struct2.go" />
+      <item index="45" class="java.lang.String" itemvalue="Go Single File.go run struct3.go" />
+      <item index="46" class="java.lang.String" itemvalue="Go Single File.go run append.go" />
+      <item index="47" class="java.lang.String" itemvalue="Go Single File.go run copy.go" />
+      <item index="48" class="java.lang.String" itemvalue="Go Single File.go run reslice.go" />
+      <item index="49" class="java.lang.String" itemvalue="Go Single File.go run slicedemo2.go" />
+      <item index="50" class="java.lang.String" itemvalue="Go Single File.go run slicedemo1.go" />
+      <item index="51" class="java.lang.String" itemvalue="Go Single File.go run arraydemo1.go" />
+      <item index="52" class="java.lang.String" itemvalue="Go Single File.go run Substring.go" />
+      <item index="53" class="java.lang.String" itemvalue="Go Single File.go run jsonserver.go" />
+      <item index="54" class="java.lang.String" itemvalue="Go Single File.go run function9.go" />
+      <item index="55" class="java.lang.String" itemvalue="Go Single File.go run demo2.go" />
+      <item index="56" class="java.lang.String" itemvalue="Go Single File.go run pptoftest.go" />
     </list>
     <recent_temporary>
       <list size="4">
@@ -926,16 +950,19 @@
       <workItem from="1432381265661" duration="2182000" />
       <workItem from="1432428858226" duration="4079000" />
       <workItem from="1432440855973" duration="9000" />
-      <workItem from="1432459593853" duration="5726000" />
+      <workItem from="1432459593853" duration="5891000" />
+      <workItem from="1432466161687" duration="2022000" />
+      <workItem from="1432508019529" duration="1527000" />
+      <workItem from="1432527175567" duration="90000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66722000" />
+    <option name="totallyTimeSpent" value="70526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -944,7 +971,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771084" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -952,14 +978,15 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771084" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771084" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -987,20 +1014,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/goroutine/selecttimeout.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65217394">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goroutine/channel4.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/variable/variable1.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1278,7 +1291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,7 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59850377">
           <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,7 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.88778055">
           <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,7 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,7 +1319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4056604">
           <caret line="284" column="56" selection-start-line="284" selection-start-column="44" selection-end-line="284" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1340,23 +1348,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netprogram/jsonclient.go">
+    <entry file="file://$PROJECT_DIR$/netprogram/jsonserver.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-          <folding>
-            <element signature="e#13#83#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.56109726">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="38" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netprogram/jsonserver.go">
+    <entry file="file://$PROJECT_DIR$/netprogram/jsonclient.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8301887">
-          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
-          <folding>
-            <element signature="e#13#74#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.6735849">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netprogram/ftpserver.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="24" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netprogram/ftpclient.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.16832918">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
