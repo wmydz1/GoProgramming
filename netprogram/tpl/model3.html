@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+{{range .Book}}
+{{.| html}} <br/>
+{{end}}
+
+
+{{with $x := "output" | printf "%q"}}{{$x}}{{end}}
+
+{{with $x := "output"}}{{printf "%q" $x}}{{end}}
+
+{{with $x := "output"}}{{$x | printf "%q"}}{{end}} <br/>
+
+{{with $name:="Google Inc"}}{{$name |printf "%q"}}{{end}}
+</body>
+</html>

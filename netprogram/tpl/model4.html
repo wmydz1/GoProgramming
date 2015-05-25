@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+{{.UserName}}<br/>
+{{range .Emails}}
+{{.}}<br/>
+{{end}}<br/>
+
+{{with .Friends}}
+{{range .}}
+{{.Fname}} <br/>
+{{end}}
+{{end}}
+</body>
+</html>
