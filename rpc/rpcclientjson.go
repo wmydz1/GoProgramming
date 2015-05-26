@@ -35,3 +35,4 @@ func main(){
     }
     fmt.Printf("Arith %d/%d = %d remainder %d\n",args.A,args.B,quo.Quo,quo.Rem)
 }
+//json-rpc是基于TCP协议实现的，目前它还不支持HTTP方式。
