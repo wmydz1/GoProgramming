@@ -25,18 +25,7 @@
     <favorites_list name="GoProgramming" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="rpcserverhttp.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rpc/rpcserverhttp.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39276809">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,11 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/some/demo1.go" />
-        <option value="$PROJECT_DIR$/flowcontrol/if.go" />
-        <option value="$PROJECT_DIR$/flowcontrol/for.go" />
-        <option value="$PROJECT_DIR$/flowcontrol/range.go" />
-        <option value="$PROJECT_DIR$/flowcontrol/switch.go" />
         <option value="$PROJECT_DIR$/flowcontrol/goto.go" />
         <option value="$PROJECT_DIR$/function/function1.go" />
         <option value="$PROJECT_DIR$/function/function2.go" />
@@ -105,6 +89,11 @@
         <option value="$PROJECT_DIR$/netprogram/tpl/footer.tpl" />
         <option value="$PROJECT_DIR$/netprogram/template5.go" />
         <option value="$PROJECT_DIR$/rpc/rpcserverhttp.go" />
+        <option value="$PROJECT_DIR$/rpc/rpcclienthttp.go" />
+        <option value="$PROJECT_DIR$/rpc/rpcservertcp.go" />
+        <option value="$PROJECT_DIR$/rpc/rpcclienttcp.go" />
+        <option value="$PROJECT_DIR$/rpc/rpcserverjson.go" />
+        <option value="$PROJECT_DIR$/rpc/rpcclientjson.go" />
       </list>
     </option>
   </component>
@@ -153,6 +142,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,9 +178,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,7 +208,13 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Single File.go run rpcserverhttp.go">
+  <component name="RunManager" selected="Go Single File.go run rpcclientjson.go">
+    <configuration default="false" name="go run rpcserverjson.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/rpc/rpcserverjson.go" />
+      <method />
+    </configuration>
     <configuration default="false" name="go run httpfile.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="GoProgramming" />
       <working_directory value="$PROJECT_DIR$" />
@@ -232,22 +227,10 @@
       <file_path value="$PROJECT_DIR$/netprogram/jsonserver.go" />
       <method />
     </configuration>
-    <configuration default="false" name="go run pptoftest.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="GoProgramming" />
-      <working_directory value="$PROJECT_DIR$" />
-      <file_path value="$PROJECT_DIR$/test/testtool/pptoftest.go" />
-      <method />
-    </configuration>
     <configuration default="false" name="go run template5.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="GoProgramming" />
       <working_directory value="$PROJECT_DIR$" />
       <file_path value="$PROJECT_DIR$/netprogram/template5.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="go run rpcserverhttp.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="GoProgramming" />
-      <working_directory value="$PROJECT_DIR$" />
-      <file_path value="$PROJECT_DIR$/rpc/rpcserverhttp.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -519,6 +502,30 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run rpcclientjson.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/rpc/rpcclientjson.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run rpcclienttcp.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/rpc/rpcclienttcp.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build rpcservertcp.go and run" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/rpc/rpcservertcp.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run rpcclienthttp.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/rpc/rpcclienthttp.go" />
       <method />
     </configuration>
     <configuration default="false" name="go run template4.go" type="GoRunFileConfiguration" factoryName="Go Single File">
@@ -887,81 +894,90 @@
       <file_path value="$PROJECT_DIR$/some/Substring.go" />
       <method />
     </configuration>
-    <list size="66">
-      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run template4.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run template1.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run template2.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run template3.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run demo3.go" />
-      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run httpget.go" />
-      <item index="6" class="java.lang.String" itemvalue="Go Single File.go run httpheader.go" />
-      <item index="7" class="java.lang.String" itemvalue="Go Single File.go run md5.go" />
-      <item index="8" class="java.lang.String" itemvalue="Go Single File.go run ftpclient.go" />
-      <item index="9" class="java.lang.String" itemvalue="Go Single File.go run ftpserver.go" />
-      <item index="10" class="java.lang.String" itemvalue="Go Single File.go run DaytimeServer.go" />
-      <item index="11" class="java.lang.String" itemvalue="Go Single File.go run clientDay.go" />
-      <item index="12" class="java.lang.String" itemvalue="Go Single File.go run jsonclient.go" />
-      <item index="13" class="java.lang.String" itemvalue="Go Single File.go run function6.go" />
-      <item index="14" class="java.lang.String" itemvalue="Go Single File.go run function8.go" />
-      <item index="15" class="java.lang.String" itemvalue="Go Single File.go run function1.go" />
-      <item index="16" class="java.lang.String" itemvalue="Go Single File.go run function3.go" />
-      <item index="17" class="java.lang.String" itemvalue="Go Single File.go run function4.go" />
-      <item index="18" class="java.lang.String" itemvalue="Go Single File.go run function5.go" />
-      <item index="19" class="java.lang.String" itemvalue="Go Single File.go run goto.go" />
-      <item index="20" class="java.lang.String" itemvalue="Go Single File.go run switch.go" />
-      <item index="21" class="java.lang.String" itemvalue="Go Single File.go run test.go" />
-      <item index="22" class="java.lang.String" itemvalue="Go Single File.go run range.go" />
-      <item index="23" class="java.lang.String" itemvalue="Go Single File.go run demo1.go (1)" />
-      <item index="24" class="java.lang.String" itemvalue="Go Single File.go run error1.go" />
-      <item index="25" class="java.lang.String" itemvalue="Go Single File.go run error3.go" />
-      <item index="26" class="java.lang.String" itemvalue="Go Single File.go run for.go" />
-      <item index="27" class="java.lang.String" itemvalue="Go Single File.go run if.go" />
-      <item index="28" class="java.lang.String" itemvalue="Go Single File.go run point.go" />
-      <item index="29" class="java.lang.String" itemvalue="Go Single File.go run demo1.go" />
-      <item index="30" class="java.lang.String" itemvalue="Go Single File.go run string.go" />
-      <item index="31" class="java.lang.String" itemvalue="Go Single File.go run type.go" />
-      <item index="32" class="java.lang.String" itemvalue="Go Single File.go run channel4.go" />
-      <item index="33" class="java.lang.String" itemvalue="Go Single File.go run closechannel.go" />
-      <item index="34" class="java.lang.String" itemvalue="Go Single File.go run constnat1.go" />
-      <item index="35" class="java.lang.String" itemvalue="Go Single File.go run iota.go" />
-      <item index="36" class="java.lang.String" itemvalue="Go Single File.go run selecttimeout.go" />
-      <item index="37" class="java.lang.String" itemvalue="Go Single File.go run variable1.go" />
-      <item index="38" class="java.lang.String" itemvalue="Go Single File.go run variable2.go" />
-      <item index="39" class="java.lang.String" itemvalue="Go Single File.go run channelmode.go" />
-      <item index="40" class="java.lang.String" itemvalue="Go Single File.go run select.go" />
-      <item index="41" class="java.lang.String" itemvalue="Go Single File.go run semaphore.go" />
-      <item index="42" class="java.lang.String" itemvalue="Go Single File.go run singlechannel.go" />
-      <item index="43" class="java.lang.String" itemvalue="Go Single File.go run channel1.go" />
-      <item index="44" class="java.lang.String" itemvalue="Go Single File.go run channel3.go" />
-      <item index="45" class="java.lang.String" itemvalue="Go Single File.go run goroutine1.go" />
-      <item index="46" class="java.lang.String" itemvalue="Go Single File.go run goroutine2.go" />
-      <item index="47" class="java.lang.String" itemvalue="Go Single File.go run interface5.go" />
-      <item index="48" class="java.lang.String" itemvalue="Go Single File.go run interface4.go" />
-      <item index="49" class="java.lang.String" itemvalue="Go Single File.go run interface1.go" />
-      <item index="50" class="java.lang.String" itemvalue="Go Single File.go run map2.go" />
-      <item index="51" class="java.lang.String" itemvalue="Go Single File.go run struct1.go" />
-      <item index="52" class="java.lang.String" itemvalue="Go Single File.go run struct2.go" />
-      <item index="53" class="java.lang.String" itemvalue="Go Single File.go run struct3.go" />
-      <item index="54" class="java.lang.String" itemvalue="Go Single File.go run append.go" />
-      <item index="55" class="java.lang.String" itemvalue="Go Single File.go run copy.go" />
-      <item index="56" class="java.lang.String" itemvalue="Go Single File.go run reslice.go" />
-      <item index="57" class="java.lang.String" itemvalue="Go Single File.go run slicedemo2.go" />
-      <item index="58" class="java.lang.String" itemvalue="Go Single File.go run slicedemo1.go" />
-      <item index="59" class="java.lang.String" itemvalue="Go Single File.go run arraydemo1.go" />
-      <item index="60" class="java.lang.String" itemvalue="Go Single File.go run Substring.go" />
-      <item index="61" class="java.lang.String" itemvalue="Go Single File.go run httpfile.go" />
-      <item index="62" class="java.lang.String" itemvalue="Go Single File.go run jsonserver.go" />
-      <item index="63" class="java.lang.String" itemvalue="Go Single File.go run pptoftest.go" />
-      <item index="64" class="java.lang.String" itemvalue="Go Single File.go run template5.go" />
+    <configuration default="false" name="go run rpcserverhttp.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="GoProgramming" />
+      <working_directory value="$PROJECT_DIR$" />
+      <file_path value="$PROJECT_DIR$/rpc/rpcserverhttp.go" />
+      <method />
+    </configuration>
+    <list size="70">
+      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run rpcclientjson.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run rpcclienttcp.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Application.Build rpcservertcp.go and run" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run rpcclienthttp.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run template4.go" />
+      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run template1.go" />
+      <item index="6" class="java.lang.String" itemvalue="Go Single File.go run template2.go" />
+      <item index="7" class="java.lang.String" itemvalue="Go Single File.go run template3.go" />
+      <item index="8" class="java.lang.String" itemvalue="Go Single File.go run demo3.go" />
+      <item index="9" class="java.lang.String" itemvalue="Go Single File.go run httpget.go" />
+      <item index="10" class="java.lang.String" itemvalue="Go Single File.go run httpheader.go" />
+      <item index="11" class="java.lang.String" itemvalue="Go Single File.go run md5.go" />
+      <item index="12" class="java.lang.String" itemvalue="Go Single File.go run ftpclient.go" />
+      <item index="13" class="java.lang.String" itemvalue="Go Single File.go run ftpserver.go" />
+      <item index="14" class="java.lang.String" itemvalue="Go Single File.go run DaytimeServer.go" />
+      <item index="15" class="java.lang.String" itemvalue="Go Single File.go run clientDay.go" />
+      <item index="16" class="java.lang.String" itemvalue="Go Single File.go run jsonclient.go" />
+      <item index="17" class="java.lang.String" itemvalue="Go Single File.go run function6.go" />
+      <item index="18" class="java.lang.String" itemvalue="Go Single File.go run function8.go" />
+      <item index="19" class="java.lang.String" itemvalue="Go Single File.go run function1.go" />
+      <item index="20" class="java.lang.String" itemvalue="Go Single File.go run function3.go" />
+      <item index="21" class="java.lang.String" itemvalue="Go Single File.go run function4.go" />
+      <item index="22" class="java.lang.String" itemvalue="Go Single File.go run function5.go" />
+      <item index="23" class="java.lang.String" itemvalue="Go Single File.go run goto.go" />
+      <item index="24" class="java.lang.String" itemvalue="Go Single File.go run switch.go" />
+      <item index="25" class="java.lang.String" itemvalue="Go Single File.go run test.go" />
+      <item index="26" class="java.lang.String" itemvalue="Go Single File.go run range.go" />
+      <item index="27" class="java.lang.String" itemvalue="Go Single File.go run demo1.go (1)" />
+      <item index="28" class="java.lang.String" itemvalue="Go Single File.go run error1.go" />
+      <item index="29" class="java.lang.String" itemvalue="Go Single File.go run error3.go" />
+      <item index="30" class="java.lang.String" itemvalue="Go Single File.go run for.go" />
+      <item index="31" class="java.lang.String" itemvalue="Go Single File.go run if.go" />
+      <item index="32" class="java.lang.String" itemvalue="Go Single File.go run point.go" />
+      <item index="33" class="java.lang.String" itemvalue="Go Single File.go run demo1.go" />
+      <item index="34" class="java.lang.String" itemvalue="Go Single File.go run string.go" />
+      <item index="35" class="java.lang.String" itemvalue="Go Single File.go run type.go" />
+      <item index="36" class="java.lang.String" itemvalue="Go Single File.go run channel4.go" />
+      <item index="37" class="java.lang.String" itemvalue="Go Single File.go run closechannel.go" />
+      <item index="38" class="java.lang.String" itemvalue="Go Single File.go run constnat1.go" />
+      <item index="39" class="java.lang.String" itemvalue="Go Single File.go run iota.go" />
+      <item index="40" class="java.lang.String" itemvalue="Go Single File.go run selecttimeout.go" />
+      <item index="41" class="java.lang.String" itemvalue="Go Single File.go run variable1.go" />
+      <item index="42" class="java.lang.String" itemvalue="Go Single File.go run variable2.go" />
+      <item index="43" class="java.lang.String" itemvalue="Go Single File.go run channelmode.go" />
+      <item index="44" class="java.lang.String" itemvalue="Go Single File.go run select.go" />
+      <item index="45" class="java.lang.String" itemvalue="Go Single File.go run semaphore.go" />
+      <item index="46" class="java.lang.String" itemvalue="Go Single File.go run singlechannel.go" />
+      <item index="47" class="java.lang.String" itemvalue="Go Single File.go run channel1.go" />
+      <item index="48" class="java.lang.String" itemvalue="Go Single File.go run channel3.go" />
+      <item index="49" class="java.lang.String" itemvalue="Go Single File.go run goroutine1.go" />
+      <item index="50" class="java.lang.String" itemvalue="Go Single File.go run goroutine2.go" />
+      <item index="51" class="java.lang.String" itemvalue="Go Single File.go run interface5.go" />
+      <item index="52" class="java.lang.String" itemvalue="Go Single File.go run interface4.go" />
+      <item index="53" class="java.lang.String" itemvalue="Go Single File.go run interface1.go" />
+      <item index="54" class="java.lang.String" itemvalue="Go Single File.go run map2.go" />
+      <item index="55" class="java.lang.String" itemvalue="Go Single File.go run struct1.go" />
+      <item index="56" class="java.lang.String" itemvalue="Go Single File.go run struct2.go" />
+      <item index="57" class="java.lang.String" itemvalue="Go Single File.go run struct3.go" />
+      <item index="58" class="java.lang.String" itemvalue="Go Single File.go run append.go" />
+      <item index="59" class="java.lang.String" itemvalue="Go Single File.go run copy.go" />
+      <item index="60" class="java.lang.String" itemvalue="Go Single File.go run reslice.go" />
+      <item index="61" class="java.lang.String" itemvalue="Go Single File.go run slicedemo2.go" />
+      <item index="62" class="java.lang.String" itemvalue="Go Single File.go run slicedemo1.go" />
+      <item index="63" class="java.lang.String" itemvalue="Go Single File.go run arraydemo1.go" />
+      <item index="64" class="java.lang.String" itemvalue="Go Single File.go run Substring.go" />
       <item index="65" class="java.lang.String" itemvalue="Go Single File.go run rpcserverhttp.go" />
+      <item index="66" class="java.lang.String" itemvalue="Go Single File.go run rpcserverjson.go" />
+      <item index="67" class="java.lang.String" itemvalue="Go Single File.go run httpfile.go" />
+      <item index="68" class="java.lang.String" itemvalue="Go Single File.go run jsonserver.go" />
+      <item index="69" class="java.lang.String" itemvalue="Go Single File.go run template5.go" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run rpcserverhttp.go" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run rpcserverjson.go" />
         <item index="1" class="java.lang.String" itemvalue="Go Single File.go run template5.go" />
         <item index="2" class="java.lang.String" itemvalue="Go Single File.go run httpfile.go" />
         <item index="3" class="java.lang.String" itemvalue="Go Single File.go run jsonserver.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run pptoftest.go" />
       </list>
     </recent_temporary>
   </component>
@@ -1000,16 +1016,17 @@
       <workItem from="1432552402267" duration="5268000" />
       <workItem from="1432566231527" duration="2497000" />
       <workItem from="1432594776759" duration="2165000" />
-      <workItem from="1432606572083" duration="34000" />
+      <workItem from="1432606572083" duration="1791000" />
+      <workItem from="1432608427282" duration="2157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83309000" />
+    <option name="totallyTimeSpent" value="87223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1018,6 +1035,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771084" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1026,12 +1044,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771084" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771084" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -1061,41 +1078,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/function/function3.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/some/test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5660377">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/function4.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9150943">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/function5.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54239404">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/function6.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4811321">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1411,10 +1393,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpcclienthttp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpcservertcp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rpc/rpcserverhttp.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39276809">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpcclienttcp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpcclientjson.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43396226">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="e#13#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/rpcserverjson.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7075472">
+          <caret line="33" column="23" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="22" />
           <folding />
         </state>
       </provider>
